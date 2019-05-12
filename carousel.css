@@ -1,0 +1,26 @@
+.carousel_view {
+  border: black solid thin;
+  height: 500px;
+
+  margin: auto;
+  display: flex;
+}
+.carousel_item {
+  width: 500px;
+}
+.carousel_who {
+  position: absolute;
+  left: -1000px;
+}
+.carousel_what {
+  position: absolute;
+  left: -1000px;
+}
+.carousel_why {
+  position: absolute;
+  left: -1000px;
+}
+.carousel_talk {
+  position: absolute;
+  left: -1000px;
+}

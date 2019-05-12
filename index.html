@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>New Project</title>
+    <link rel="stylesheet" href="./index.css" type="text/css" />
+    <link rel="stylesheet" href="./carousel.css" type="text/css" />
+    <script>
+      var htmlLogo = document.getElementById("logo-html");
+    </script>
+  </head>
+  <body>
+
+      <div class='main_container'>
+          <div class='who main_item' id='who1'>
+            <p>Who Am I?</p>
+          </div>
+          <div class='what main_item'>
+            <p>What I do</p>
+          </div>
+          <div class='why main_item'>
+            <p>Why Me</p>
+          </div>
+          <div class='talk main_item'>
+            <p>Let's talk</p>            
+          </div>
+      </div>
+      <hr id='hr1' />
+
+      <div class='carousel_view'>
+
+          <div class='carousel_item carousel_who' id='carousel_who1'>
+            <h1>Who Am I</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime deleniti dolor dolorum. 
+              Aliquam, rem inventore aspernatur quidem reprehenderit neque. Sed sequi quibusdam eius
+               praesentium eos dolor cum molestiae? Odit sapiente obcaecati necessitatibus quaerat repudiandae 
+               ab quos ea. Iusto itaque delectus aliquid similique id nemo, debitis beatae, quia, alias omnis mollitia.</p>
+          </div>
+
+          <div class='carousel_item carousel_what'>
+              <h1>What I Do</h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime deleniti dolor dolorum. 
+                Aliquam, rem inventore aspernatur quidem reprehenderit neque. Sed sequi quibusdam eius
+                 praesentium eos dolor cum molestiae? Odit sapiente obcaecati necessitatibus quaerat repudiandae 
+                 ab quos ea. Iusto itaque delectus aliquid similique id nemo, debitis beatae, quia, alias omnis mollitia.</p>
+            </div>
+
+            <div class='carousel_item carousel_why'>
+                <h1>Why Me</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime deleniti dolor dolorum. 
+                  Aliquam, rem inventore aspernatur quidem reprehenderit neque. Sed sequi quibusdam eius
+                   praesentium eos dolor cum molestiae? Odit sapiente obcaecati necessitatibus quaerat repudiandae 
+                   ab quos ea. Iusto itaque delectus aliquid similique id nemo, debitis beatae, quia, alias omnis mollitia.</p>
+              </div>
+
+              <div class='carousel_item carousel_talk'>
+                  <h1>Let's Talk</h1>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime deleniti dolor dolorum. 
+                    Aliquam, rem inventore aspernatur quidem reprehenderit neque. Sed sequi quibusdam eius
+                     praesentium eos dolor cum molestiae? Odit sapiente obcaecati necessitatibus quaerat repudiandae 
+                     ab quos ea. Iusto itaque delectus aliquid similique id nemo, debitis beatae, quia, alias omnis mollitia.</p>
+                </div>
+
+
+      <!-- main view div -->
+      </div> 
+
+    </nav>
+    <script>
+      var change = document.getElementById('who1');
+
+      change.addEventListener('click', function(){
+        document.getElementById('carousel_who1').style.left = '0px';
+      })
+
+    </script>
+  </body>
+</html>
